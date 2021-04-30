@@ -8,7 +8,7 @@ public static boolean binarySearch(int] data, int target, int low, int high) {
         } else if (target < data[mid]) {
             return binarySearch(data, target, low, mid - 1);
         } else {
-            return binarySearch(data, target, low, mid + 1);
+            return binarySearch(data, target, mid + 1, high);
         }
     }
 }
