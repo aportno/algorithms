@@ -1,2 +1,0 @@
-module haskell-package.listAlgo
-( )
